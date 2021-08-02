@@ -3,7 +3,7 @@
     margin-left: auto;
     margin-right: auto; 
   }
-   .list__wrapper{
+  .list__wrapper{
       display: flex;
       justify-content: center;
       align-items: center;
@@ -13,7 +13,7 @@
       border-radius: 4px;
       margin-bottom: 30px;
    }
-   .list__icon {
+  .list__icon {
       width: 70px;
       height: 70px;
    }
@@ -30,7 +30,7 @@
     background-position: center;
   }
   
-  .conteiner__taitl {
+ .conteiner__taitl {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -39,7 +39,7 @@
     text-transform: uppercase;
     color:var(--wait-color);
   }
-  .btn{
+ .btn{
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
@@ -65,5 +65,5 @@
        background: #2196F3;
        color:var(--wait-color);
      }
-  }
+ }
   
