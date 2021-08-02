@@ -1,6 +1,6 @@
 
 .conteiner {
-  height: 100%;
+   height: 100%;
     padding: 0px 15px;
     margin-left: auto;
     margin-right: auto;
@@ -18,10 +18,11 @@
       width: 768px;
     }
   }
-  @media screen and (min-width: 1200px)
-.container {
+  @media screen and (min-width: 1200px) {
+   .container  {
     max-width: 1200px;
   }
+}
  //.conteiner {
  //  width: 1200px;
  //margin: 0 auto;
