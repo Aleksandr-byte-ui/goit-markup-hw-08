@@ -1,0 +1,29 @@
+
+.contacts__mail,
+.contacts__tel{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--text-gray);
+     display: flex;
+    align-items: center;
+    transition: var(--main-duration) var(--timing-function);
+    &:hover,
+    &:focus {
+  color: var(--acsent-color);
+  }
+}
+
+ .contacts__icon{
+   fill: currentColor;
+    margin-right: 10px;
+    width: 16px;
+    height: 16px;
+ }
+ .contacts__mail {
+  margin-right: 50px;
+  display: flex;
+  align-items: center;
+  transition: var(--main-duration) var(--timing-function);
+}
