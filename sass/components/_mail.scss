@@ -15,6 +15,16 @@
   }
 }
 
+@media screen and (max-width: 767px){
+  .contacts__mail{
+    display: none;}
+}  
+@media screen and (max-width: 767px){
+  .contacts__tel{
+    display: none;}
+}  
+
+
  .contacts__icon{
    fill: currentColor;
     margin-right: 10px;
@@ -23,7 +33,6 @@
  }
  .contacts__mail {
   margin-right: 50px;
-  display: flex;
   align-items: center;
   transition: var(--main-duration) var(--timing-function);
 }
