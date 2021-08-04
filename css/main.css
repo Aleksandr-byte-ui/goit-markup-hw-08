@@ -73,10 +73,9 @@ img {
 }
 
 .conteiner {
-  height: 100%;
-  padding: 0px 15px;
-  margin-left: auto;
-  margin-right: auto;
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 @media screen and (min-width: 480px) {
@@ -104,7 +103,6 @@ img {
   font-size: 26px;
   line-height: 1.19;
   color: #000000;
-  margin-right: 92px;
 }
 
 .page-logo__web {
@@ -163,6 +161,13 @@ img {
 @media screen and (max-width: 767px) {
   .contacts__tel {
     display: none;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .contacts {
+    display: flex;
+    margin-left: auto;
   }
 }
 
@@ -405,6 +410,12 @@ img {
   align-items: center;
 }
 
+@media screen and (min-width: 1200px) {
+  .navigation {
+    margin-left: 93px;
+  }
+}
+
 .menu-list {
   display: flex;
   align-items: center;
@@ -435,10 +446,17 @@ img {
   }
 }
 
+@media screen and (min-width: 768px) {
+  .burger-btn {
+    display: none;
+  }
+}
+
 .page-header__conteiner {
   display: flex;
   align-items: center;
   margin-left: auto;
+  margin-right: auto;
 }
 
 @media screen and (max-width: 767px) {
@@ -447,10 +465,22 @@ img {
   }
 }
 
-.contacts {
-  display: flex;
-  align-items: center;
-  margin-left: auto;
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .page-header__conteiner {
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .navigation {
+    max-width: 768px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .contacts__mail:not(:last-child) {
+    margin-bottom: 10px;
+  }
 }
 
 .menu-list__link::after {
@@ -565,7 +595,6 @@ img {
   .list {
     display: flex;
     margin: -15px;
-    flex-wrap: wrap;
   }
 }
 
