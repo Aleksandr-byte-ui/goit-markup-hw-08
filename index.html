@@ -241,7 +241,35 @@
                 <li class="img-contein">
                     <article class="cart-comands">
                      <div class="img-cart">
-                    <img src="./images/masters/master-img2.jpg" alt="женщина " width="270">
+                    <picture>
+                        <source media="(min-width: 1200px)" srcset="
+                            ./images/deckstope/team2.webp    1x,
+                            ./images/deckstope/team2@2x.webp 2x
+                          " type="image/webp">
+                        <source media="(min-width: 1200px)" srcset="
+                            ./images/deckstope/team2.jpg    1x,
+                            ./images/deckstope/team2@2x.jpg 2x
+                          ">
+        
+                        <source media="(min-width: 768px)" srcset="
+                            ./images/tablet/team2.webp    1x,
+                            ./images/tablet/team2@2x.webp 2x
+                          " type="image/webp">
+                        <source media="(min-width: 768px)" srcset="
+                            ./images/tablet/team2.jpg    1x,
+                            ./images/tablet/team2@2x.jpg 2x
+                          ">
+        
+                        <source media="(min-width: 280px)" srcset="
+                            ./images/mobile/team2.webp    1x,
+                            ./images/mobile/team2@2x.webp 2x
+                          " type="image/webp">
+                        <source media="(min-width: 280px)" srcset="
+                            ./images/mobile/team2.jpg    1x,
+                            ./images/mobile/team2@2x.jpg 2x
+                          ">
+                        <img src="#" alt="Фото Ольги Репиной">
+                      </picture>
                     </div>
                     <div class="list-cart">
                     <h3 class="names-list">Ольга Репина</h3>
@@ -287,7 +315,35 @@
                 <li class="img-contein">
                     <article class="cart-comands">
                     <div class="img-cart">
-                    <img src="./images/masters/master-img3.jpg" alt="мужчина" width="270">
+                        <picture>
+                            <source media="(min-width: 1200px)" srcset="
+                                ./images/deckstope/team3.webp    1x,
+                                ./images/deckstope/team3@2x.webp 2x
+                              " type="image/webp">
+                            <source media="(min-width: 1200px)" srcset="
+                                ./images/deckstope/team3.jpg    1x,
+                                ./images/deckstope/team3@2x.jpg 2x
+                              ">
+            
+                            <source media="(min-width: 768px)" srcset="
+                                ./images/tablet/team3.webp    1x,
+                                ./images/tablet/team3@2x.webp 2x
+                              " type="image/webp">
+                            <source media="(min-width: 768px)" srcset="
+                                ./images/tablet/team3.jpg    1x,
+                                ./images/tablet/team3@2x.jpg 2x
+                              ">
+            
+                            <source media="(min-width: 280px)" srcset="
+                                ./images/mobile/team3.webp    1x,
+                                ./images/mobile/team3@2x.webp 2x
+                              " type="image/webp">
+                            <source media="(min-width: 280px)" srcset="
+                                ./images/mobile/team3.jpg    1x,
+                                ./images/mobile/team3@2x.jpg 2x
+                              ">
+                            <img src="#" alt="Фото Николая Тарасова">
+                          </picture>
                     </div>
                     <div class="list-cart">
                     <h3 class="names-list">Николай Тарасов</h3>
@@ -333,7 +389,35 @@
                 <li class="img-contein">
                     <article class="cart-comands">
                     <div class="img-cart">
-                    <img src="./images/masters/master-img4.jpg" alt="мужчина" width="270">
+                        <picture>
+                            <source media="(min-width: 1200px)" srcset="
+                                ./images/deckstope/team4.webp    1x,
+                                ./images/deckstope/team4@2x.webp 2x
+                              " type="image/webp">
+                            <source media="(min-width: 1200px)" srcset="
+                                ./images/deckstope/team4.jpg    1x,
+                                ./images/deckstope/team4@2x.jpg 2x
+                              ">
+            
+                            <source media="(min-width: 768px)" srcset="
+                                ./images/tablet/team4.webp    1x,
+                                ./images/tablet/team4@2x.webp 2x
+                              " type="image/webp">
+                            <source media="(min-width: 768px)" srcset="
+                                ./images/tablet/team4.jpg    1x,
+                                ./images/tablet/team4@2x.jpg 2x
+                              ">
+            
+                            <source media="(min-width: 280px)" srcset="
+                                ./images/mobile/team4.webp    1x,
+                                ./images/mobile/team4@2x.webp 2x
+                              " type="image/webp">
+                            <source media="(min-width: 280px)" srcset="
+                                ./images/mobile/team4.jpg    1x,
+                                ./images/mobile/team4@2x.jpg 2x
+                              ">
+                            <img src="#" alt="Фото Михаила Ермакова">
+                          </picture>
                     </div>
                     <div class="list-cart">
                     <h3 class="names-list">Михаил Ермаков</h3>
@@ -379,8 +463,8 @@
            </div>
         </section>
      
-     <!----   <section class="sections-klient">
-      <div >
+       <section class="sections-klient">
+      <div class="clients">
          <h2 class="section-title ">
              Постоянные клиенты
          </h2>
@@ -443,10 +527,10 @@
 
 
     <!--Подвал -->
-  <!-- <footer class="footer-color">
+  <footer class="footer-color">
         <div class="conteiner">
-         <div class="footer-wrapper">
-         <div class="footer-wrapper-adress">
+         
+         <div class="footer-adress">
         <a href="#" class="logo-footer link"><span class="page-logo__web">Web</span>Studio</a>
         
         <address class="address">
@@ -486,7 +570,7 @@
                         </svg>
                     </a>
                 </li>
-                <li>
+                <li class="social-link">
                     <a class="social-link footer-social-link" href="">
                         <svg class="social-icon footer-social-icon">
                             <use href="./images/itoms/symbol-defs.svg#icon-linkedin"> </use>
@@ -499,7 +583,7 @@
         <div class="footer-mail-title">
             <p  class="footer-social-title">Подпишитесь на рассылку</p>
             <form class="mail-foter">
-                <label >
+                <label class="footer-label">
                     <input type="text" class="footer-input" name="email" placeholder="E-mail" required>
                 </label>
                 <button class="footer-button" type="submit">Подписатся
@@ -529,7 +613,7 @@
                 <span class="modal-span">
                 <input type="text" class="modal-form-input" name="user-name" required minlength="2" pattern="[a-zA-Zя-яёА-ЯЁ]+" title="Имя должно содержать символы кирилицы или латиницы">
              <svg class="modal-form-icon">
-                 <use href="./images/itoms/symbol-defs4.svg#icon-person-black-18dp" >
+                 <use href="./images/itoms/symbol-defs4.svg#icon-person-black-18dp">
 
                  </use>
              </svg>
@@ -565,7 +649,7 @@
             <button type="submit" class="modal-form-button">Отправить</button>
         </form>
         </div>
-       </div>-->
+       </div>
   <!-- Ставим перед закрывающим тегом body -->
   <script src="./js/modal.js"></script>
 </body>
