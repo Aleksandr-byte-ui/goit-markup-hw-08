@@ -2,12 +2,32 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
   }
+
+  @media screen and (max-width: 767px){
+  .btn-conteiner  {
+      margin-top: -15px;
+      margin-right: -8px;}
+  }
+  
+  
   .btn-cont:not(:last-child) {
     display: flex;
     margin-right: 8px;
   }
+
+  .btn-cont:not(:last-child) {
+    margin-right: 8px;
+}
+@media screen and (max-width: 767px){
+  .btn-cont {
+    margin-top: 15px;
+    margin-right: 8px;}
+}
+
+
+
   .header-border{
     border-bottom: 1px solid #ECECEC;
   }

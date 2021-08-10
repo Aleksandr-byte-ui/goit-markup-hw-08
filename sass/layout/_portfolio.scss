@@ -3,6 +3,8 @@
   margin-top: -30px;
   }
 
+
+
   @media screen and (min-width: 768px){
 .picture-conteiner {
     display: flex;
@@ -20,10 +22,23 @@
      
    }
   .img-conteiner {
-    flex-basis: calc((100% - 90px) / 3);
-    margin-left: 30px;
+   
     margin-top: 30px;
   }
+
+  @media screen and (min-width: 768px){
+  .img-conteiner {
+      display: flex;
+      flex-direction: column;
+      margin-left: 30px;
+      flex-basis: calc(100% / 2 - 30px);}
+  }
+  
+  @media screen and (min-width: 1200px){
+  .img-conteiner{
+    flex-basis: calc(100% / 3 - 30px);}
+}
+
   .list-carts {
     padding-top: 20px;
     padding-left: 24px;
